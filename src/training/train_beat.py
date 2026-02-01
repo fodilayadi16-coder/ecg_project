@@ -19,7 +19,7 @@ print(np.unique(y, return_counts=True))
 # Split the dataset
 X_train, X_val, y_train, y_val = train_test_split(X, y, stratify=y, test_size=0.2)
 
-# Apply moderate ROS only on training set
+# Apply moderate ROS only on training set to balance the dataset
 X_train_resampled, y_train_resampled = moderate_ros(X_train, y_train)
 
 print(np.unique(y_train_resampled, return_counts=True))
