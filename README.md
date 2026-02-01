@@ -1,7 +1,6 @@
 # Project Title
 
-Short one-line description of what your project does and why it matters.
-
+A comprehensive deep learning solution for classifying ECG beats and rhythms, featuring real-time data acquisition from ESP32 with AD8232 sensor and an interactive web visualization dashboard.
 ---
 
 ## Overview
