@@ -25,18 +25,20 @@ This project aims to:
 
 ## Project Structure
 
+```bash
 ecg_project/
-
-├── data/
-│   ├── raw/
-│   └── processed/
-├── src/
-│   ├── preprocessing/
-│   ├── models/
-│   ├── training/
-│   └── evaluation/
-├── web app/         # React.js web application
-├── firmware/        # ESP32 code
-├── requirements.txt
-└── README.md
+├── data/                    # Data directory
+│   ├── raw/                 # Raw ECG datasets (MIT-BIH, etc.)
+│   └── processed/           # Cleaned and transformed data
+├── src/                     # Source code
+│   ├── preprocessing/       # Signal filtering, segmentation
+│   ├── models/              # CNN architectures
+│   ├── training/            # Model training pipelines
+│   └── evaluation/          # Performance metrics & visualization
+├── web_app/                 # Real-time monitoring dashboard
+├── firmware/                # ESP32 ECG acquisition code
+├── requirements.txt         # Python package dependencies
+├── .gitignore               # Git ignore rules
+└── README.md                # This file
+```
 
