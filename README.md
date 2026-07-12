@@ -1,6 +1,6 @@
 # Project Title
 
-A comprehensive deep learning solution for classifying ECG beats, featuring real-time data acquisition from ESP32 with AD8232 sensor and an interactive web visualization dashboard.
+A comparative study of different convolutional neural network architectures for ECG beat classification and selection of best model for further deployment on raspberry pi based on generalization, model size, and latency.
 ---
 
 ## Overview
